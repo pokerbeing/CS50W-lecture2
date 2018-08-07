@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>My Website!</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      h1 {
+        color: green;
+      }
+      }
+    </style>
+    </head>
+    <body>
+        <h1>{% block heading %}{% endblock %}</h1>
+
+        {% block body %}
+        {% endblock %}
+    </body>
+</html>
